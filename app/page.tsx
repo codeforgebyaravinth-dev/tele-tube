@@ -13,7 +13,12 @@ export default function Home() {
         <CategoryPills />
       </div>
 
+      <div className="flex items-center justify-between mt-8 mb-4 px-1">
+        <h2 className="text-xl font-bold text-white tracking-tight">Featured Videos</h2>
+      </div>
+
       {/* Video Grid */}
+
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-4">
         {videos.map((video) => (
           <VideoCard

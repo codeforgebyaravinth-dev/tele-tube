@@ -9,7 +9,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "TeleTube - Premium Video Sharing",
   description: "A high-fidelity YouTube clone powered by TeleStack and Appwrite.",
+  keywords: ["Next.js", "Appwrite", "Glassmorphism", "YouTube Clone", "TeleStack"],
 };
+
 
 export default function RootLayout({
   children,

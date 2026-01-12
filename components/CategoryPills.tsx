@@ -25,8 +25,9 @@ export function CategoryPills() {
                 <button
                     key={cat}
                     onClick={() => setActive(cat)}
-                    className={`category-pill ${active === cat ? "active-pill" : ""}`}
+                    className={`category-pill transition-all active:scale-95 ${active === cat ? "active-pill" : ""}`}
                 >
+
                     {cat}
                 </button>
             ))}

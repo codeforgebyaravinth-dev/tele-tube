@@ -41,9 +41,15 @@ export function VideoCard({
                         className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
-                    <div className="absolute bottom-2 right-2 px-1.5 py-0.5 bg-black/80 backdrop-blur-md rounded text-[10px] font-bold text-white">
-                        12:45
+                    <div className="absolute bottom-2 right-2 flex gap-1.5 items-center">
+                        <div className="px-1.5 py-0.5 bg-red-600 rounded text-[9px] font-black text-white uppercase tracking-tighter">
+                            LIVE
+                        </div>
+                        <div className="px-1.5 py-0.5 bg-black/80 backdrop-blur-md rounded text-[10px] font-bold text-white">
+                            12:45
+                        </div>
                     </div>
+
                 </div>
 
                 <div className="flex gap-3 px-1">

@@ -20,8 +20,10 @@ import { usePathname } from "next/navigation";
 const mainItems = [
     { icon: Home, label: "Home", href: "/" },
     { icon: Compass, label: "Explore", href: "/explore" },
+    { icon: PlaySquare, label: "Subscriptions", href: "/subscriptions" },
     { icon: TrendingUp, label: "Trending", href: "/trending" },
 ];
+
 
 const libraryItems = [
     { icon: History, label: "History", href: "/history" },

@@ -26,9 +26,10 @@ export function Navbar() {
                         placeholder="Search"
                         className="w-full bg-white/5 border border-white/10 rounded-full py-2 pl-4 pr-12 text-sm outline-none focus:border-purple-500/50 focus:bg-white/10 transition-all font-medium"
                     />
-                    <button className="absolute right-0 top-0 bottom-0 px-4 bg-white/5 border-l border-white/10 rounded-r-full hover:bg-white/10 transition-colors">
-                        <Search className="w-5 h-5 text-gray-400" />
+                    <button className="absolute right-0 top-0 bottom-0 px-4 bg-white/5 border-l border-white/10 rounded-r-full hover:bg-white/10 transition-colors group/btn">
+                        <Search className="w-5 h-5 text-gray-400 group-hover/btn:text-purple-400 transition-colors" />
                     </button>
+
                 </div>
             </div>
 
